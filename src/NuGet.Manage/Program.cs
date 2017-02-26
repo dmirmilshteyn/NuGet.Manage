@@ -1,4 +1,4 @@
-﻿using Microsoft.Framework.Runtime.Common.CommandLine;
+﻿using Microsoft.Extensions.CommandLineUtils;
 using NuGet.Protocol.Core.Types;
 using System;
 using System.Collections.Generic;

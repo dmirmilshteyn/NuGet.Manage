@@ -9,10 +9,7 @@
       "type": "platform",
       "version": "1.0.1"
     },
-    "Microsoft.Framework.CommandLineUtils.Sources": {
-      "version": "1.0.0-*",
-      "type": "build"
-    },
+    "Microsoft.Extensions.CommandLineUtils": "1.0.1",
     "NuGet.Client": "3.5.0",
     "NuGet.Protocol.Core.v3": "3.5.0",
     "NuGet.Resolver": "3.5.0",
