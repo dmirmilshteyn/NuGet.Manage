@@ -64,6 +64,13 @@ namespace NuGet.Manage
                 });
             });
 
+            app.OnExecute(() =>
+            {
+                app.ShowHelp();
+
+                return 0;
+            });
+
             return app.Execute(args);
         }
     }
